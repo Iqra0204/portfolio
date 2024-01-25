@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #006666;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: #9dbcbc
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    text-decoration: none;
+    color: #000;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul li a:hover{
+    color: #0e9898;
+    font-size: 1.06rem;
+}
+.left {
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+.firstsection div{
+    width: 30%;
+}
+
+.leftsection{
+    /* background-color: #fff5bb; */
+    width: 34px;
+    font-size:3rem;
+}
+.rightsection{
+    width: 34px;
+}
+.rightsection img{
+    width: 80%;
+    margin: 70px 0;
+    border-radius: 50%;
+}
+.purple{
+    color: #b7b7b7;
+}
+.learn{
+    color: gray;
+}
+.personal_info{
+    width: 100%;
+    height: 200px;
+    margin: 40px;
+    font-size: 1.03rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skills{
+        width: 100%;
+        height: 200px;
+        margin: 40px;
+        font-size: 1.03rem;
+}
+.skills .Horizontal{
+    background-color:#b7b7b7;
+    width: 80vh;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.skills .vertical{
+    width:  2px;
+    height: 50px;
+    background-color: #b7b7b7;
+    margin: 0 57px;
+}
+.image_top{
+    width: 25px;
+    position: relative;
+    top: -18px;
+    left: -8px;
+}
+.vertical_text{
+    position: relative;
+    top: 30px;
+    width: 150px;
+    left: -55px;
+
+}
+.qualification{
+    width: 100%;
+    height: 200px;
+    margin: 40px -10px;
+    font-size: 1.03rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.qualification img{
+    width: 70px;
+}
+.pic{
+    width: 500px;
+    height: 300px;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 30%;
+}
+.project{
+    width: 100%;
+    height: 200px;
+    margin: 40px 15px;
+    font-size: 1.03rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
